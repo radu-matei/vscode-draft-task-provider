@@ -11,7 +11,7 @@
 		"Other"
 	],
 	"activationEvents": [
-        "workspaceContains:**/draft.toml"
+		"workspaceContains:**/draft.toml"
 	],
 	"main": "./out/src/extension",
 	"contributes": {
@@ -41,5 +41,8 @@
 		"typescript": "^2.4.1",
 		"vscode": "^1.1.18",
 		"@types/node": "*"
+	},
+	"dependencies": {
+		"toml": "^2.3.3"
 	}
 }
